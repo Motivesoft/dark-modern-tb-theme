@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "My first theme",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "ian@motivesoft.co.uk",
+      "strict_min_version": "60.0"
+    }
+  },
+  "description": "My first theme.",
+  "icons": {
+    "200": "icon.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": "#1E90FF",
+      "toolbar": "#4682B4",
+      "toolbar_text": "#FFFFFF",
+      "tab_background_text": "#FFFFFF",
+      "tab_background_separator": "#FFFFFF",
+      "toolbar_field": "#ADD8E6",
+      "toolbar_field_text": "#000000",
+      "popup": "#F0F8FF",
+      "popup_text": "#000000"
+    }
+  }
+}
